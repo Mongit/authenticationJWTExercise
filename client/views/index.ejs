@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+    <head>
+        <title>Angular client to get date api</title>
+        <link rel='stylesheet' href='/stylesheets/style.css' />
+        
+        <script src="./angular/lib/angular.min.js"></script>
+        <script src="./angular/lib/angular-route.min.js"></script>
+        <script src="./angular/src/app.js"></script>
+        <script src="./angular/src/controllers.js"></script>
+        <script src="./angular/src/errorHandler.js"></script>
+        <script src="./angular/src/tokenStorage.js"></script>
+        <script src="./angular/src/httpInterceptor.js"></script>
+        
+        <script src="./angular/src/accountApi.js"></script>
+        <script src="./angular/src/api.js"></script>
+        
+    </head>
+    <body>
+        <a href="/users/logout">log out</a>
+        <div ng-view=""></div>
+    </body>
+</html>
